@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol DKCameraButtonViewDelegate: AnyObject {
+public protocol DKCameraButtonViewDelegate: AnyObject {
     func cameraButtonHandleAction(_ action: DKCameraButtonView.ActionType)
 }
 
 public final class DKCameraButtonView: UIView {
     
-    enum ActionType {
+    public enum ActionType {
         case takePhoto
         case startRecord
         case stopRecord
@@ -31,7 +31,7 @@ public final class DKCameraButtonView: UIView {
         return button
     }()
     
-    weak var delegate: DKCameraButtonViewDelegate?
+    public weak var delegate: DKCameraButtonViewDelegate?
     
     // MARK: Initialization
     override init(frame: CGRect) {
