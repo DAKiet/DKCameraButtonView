@@ -11,12 +11,6 @@
 		CE81E5B42A739B5200E9B271 /* DKCameraButtonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81E5A92A739B5200E9B271 /* DKCameraButtonView.framework */; };
 		CE81E5B92A739B5200E9B271 /* DKCameraButtonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5B82A739B5200E9B271 /* DKCameraButtonViewTests.swift */; };
 		CE81E5BA2A739B5200E9B271 /* DKCameraButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE81E5AC2A739B5200E9B271 /* DKCameraButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE81E5CC2A739F8D00E9B271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5CB2A739F8D00E9B271 /* AppDelegate.swift */; };
-		CE81E5CE2A739F8D00E9B271 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5CD2A739F8D00E9B271 /* SceneDelegate.swift */; };
-		CE81E5D02A739F8D00E9B271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5CF2A739F8D00E9B271 /* ViewController.swift */; };
-		CE81E5D32A739F8D00E9B271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE81E5D12A739F8D00E9B271 /* Main.storyboard */; };
-		CE81E5D52A739F8E00E9B271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81E5D42A739F8E00E9B271 /* Assets.xcassets */; };
-		CE81E5D82A739F8E00E9B271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE81E5D62A739F8E00E9B271 /* LaunchScreen.storyboard */; };
 		CE81E5DE2A73AE4300E9B271 /* DKCameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5DD2A73AE4300E9B271 /* DKCameraButtonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +30,6 @@
 		CE81E5AD2A739B5200E9B271 /* DKCameraButtonView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DKCameraButtonView.docc; sourceTree = "<group>"; };
 		CE81E5B32A739B5200E9B271 /* DKCameraButtonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKCameraButtonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE81E5B82A739B5200E9B271 /* DKCameraButtonViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKCameraButtonViewTests.swift; sourceTree = "<group>"; };
-		CE81E5C92A739F8D00E9B271 /* DKCameraButtonViewExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKCameraButtonViewExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE81E5CB2A739F8D00E9B271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE81E5CD2A739F8D00E9B271 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE81E5CF2A739F8D00E9B271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE81E5D22A739F8D00E9B271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE81E5D42A739F8E00E9B271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE81E5D72A739F8E00E9B271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE81E5D92A739F8E00E9B271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE81E5DD2A73AE4300E9B271 /* DKCameraButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKCameraButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE81E5C62A739F8D00E9B271 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +57,6 @@
 			children = (
 				CE81E5AB2A739B5200E9B271 /* DKCameraButtonView */,
 				CE81E5B72A739B5200E9B271 /* DKCameraButtonViewTests */,
-				CE81E5CA2A739F8D00E9B271 /* DKCameraButtonViewExamples */,
 				CE81E5AA2A739B5200E9B271 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +66,6 @@
 			children = (
 				CE81E5A92A739B5200E9B271 /* DKCameraButtonView.framework */,
 				CE81E5B32A739B5200E9B271 /* DKCameraButtonViewTests.xctest */,
-				CE81E5C92A739F8D00E9B271 /* DKCameraButtonViewExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,20 +86,6 @@
 				CE81E5B82A739B5200E9B271 /* DKCameraButtonViewTests.swift */,
 			);
 			path = DKCameraButtonViewTests;
-			sourceTree = "<group>";
-		};
-		CE81E5CA2A739F8D00E9B271 /* DKCameraButtonViewExamples */ = {
-			isa = PBXGroup;
-			children = (
-				CE81E5CB2A739F8D00E9B271 /* AppDelegate.swift */,
-				CE81E5CD2A739F8D00E9B271 /* SceneDelegate.swift */,
-				CE81E5CF2A739F8D00E9B271 /* ViewController.swift */,
-				CE81E5D12A739F8D00E9B271 /* Main.storyboard */,
-				CE81E5D42A739F8E00E9B271 /* Assets.xcassets */,
-				CE81E5D62A739F8E00E9B271 /* LaunchScreen.storyboard */,
-				CE81E5D92A739F8E00E9B271 /* Info.plist */,
-			);
-			path = DKCameraButtonViewExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,23 +138,6 @@
 			productReference = CE81E5B32A739B5200E9B271 /* DKCameraButtonViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE81E5C82A739F8D00E9B271 /* DKCameraButtonViewExamples */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE81E5DA2A739F8E00E9B271 /* Build configuration list for PBXNativeTarget "DKCameraButtonViewExamples" */;
-			buildPhases = (
-				CE81E5C52A739F8D00E9B271 /* Sources */,
-				CE81E5C62A739F8D00E9B271 /* Frameworks */,
-				CE81E5C72A739F8D00E9B271 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DKCameraButtonViewExamples;
-			productName = DKCameraButtonViewExamples;
-			productReference = CE81E5C92A739F8D00E9B271 /* DKCameraButtonViewExamples.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,9 +153,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					CE81E5B22A739B5200E9B271 = {
-						CreatedOnToolsVersion = 14.3.1;
-					};
-					CE81E5C82A739F8D00E9B271 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -229,7 +172,6 @@
 			targets = (
 				CE81E5A82A739B5200E9B271 /* DKCameraButtonView */,
 				CE81E5B22A739B5200E9B271 /* DKCameraButtonViewTests */,
-				CE81E5C82A739F8D00E9B271 /* DKCameraButtonViewExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -246,16 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE81E5C72A739F8D00E9B271 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE81E5D82A739F8E00E9B271 /* LaunchScreen.storyboard in Resources */,
-				CE81E5D52A739F8E00E9B271 /* Assets.xcassets in Resources */,
-				CE81E5D32A739F8D00E9B271 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,16 +211,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE81E5C52A739F8D00E9B271 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE81E5D02A739F8D00E9B271 /* ViewController.swift in Sources */,
-				CE81E5CC2A739F8D00E9B271 /* AppDelegate.swift in Sources */,
-				CE81E5CE2A739F8D00E9B271 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -298,25 +220,6 @@
 			targetProxy = CE81E5B52A739B5200E9B271 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CE81E5D12A739F8D00E9B271 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE81E5D22A739F8D00E9B271 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE81E5D62A739F8E00E9B271 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE81E5D72A739F8E00E9B271 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE81E5BB2A739B5200E9B271 /* Debug */ = {
@@ -555,66 +458,6 @@
 			};
 			name = Release;
 		};
-		CE81E5DB2A739F8E00E9B271 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DKCameraButtonViewExamples/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakiet.DKCameraButtonViewExamples;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CE81E5DC2A739F8E00E9B271 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DKCameraButtonViewExamples/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakiet.DKCameraButtonViewExamples;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -641,15 +484,6 @@
 			buildConfigurations = (
 				CE81E5C12A739B5200E9B271 /* Debug */,
 				CE81E5C22A739B5200E9B271 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE81E5DA2A739F8E00E9B271 /* Build configuration list for PBXNativeTarget "DKCameraButtonViewExamples" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE81E5DB2A739F8E00E9B271 /* Debug */,
-				CE81E5DC2A739F8E00E9B271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

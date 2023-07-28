@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DKCameraButtonView"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Library for applying Camera button"
   spec.description      = <<-DESC
 This button allows you take photo or hold button.
