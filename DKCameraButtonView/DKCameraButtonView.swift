@@ -31,16 +31,13 @@ public final class DKCameraButtonView: UIView {
         return button
     }()
     
-    private let longGesture = UILongPressGestureRecognizer()
-    
-    public weak var delegate: DKCameraButtonViewDelegate?
+    weak var delegate: DKCameraButtonViewDelegate?
     
     // MARK: Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        longGesture.addTarget(self, action: #selector(longPressAction(_:)))
-        longGesture.delegate = self
+       
+        let longGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPressAction(_:)))
         captureButton.addGestureRecognizer(longGesture)
         
         addSubview(captureButton)
@@ -73,16 +70,5 @@ extension DKCameraButtonView {
     
     @objc private func takePhotoAction(_ sender: UIButton) {
         delegate?.cameraButtonHandleAction(.takePhoto)
-    }
-}
-
-// MARK: UIGestureRecognizerDelegate
-extension DKCameraButtonView: UIGestureRecognizerDelegate {
-    
-    func gestureRecognizer(
-        _ gestureRecognizer: UIGestureRecognizer,
-        shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer
-    ) -> Bool {
-        return gestureRecognizer == longGesture
     }
 }
